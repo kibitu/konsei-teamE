@@ -38,19 +38,19 @@ $(".navi .menu .menu-second").click(function () {
     $(".products-list.desk").addClass("active");
   });
   
-  // $(".tab-chair").click(function () {
-  //   $(".tab-list li").removeClass("active");
-  //   $(".products-list").removeClass("active");
-  //   $(this).addClass("active");
-  //   $(".products-list.chair").addClass("active");
-  // });
+  $(".tab-chair").click(function () {
+    $(".tab-list li").removeClass("active");
+    $(".products-list").removeClass("active");
+    $(this).addClass("active");
+    $(".products-list.chair").addClass("active");
+  });
   
-  // $(".tab-dining").click(function () {
-  //   $(".tab-list li").removeClass("active");
-  //   $(".products-list").removeClass("active");
-  //   $(this).addClass("active");
-  //   $(".products-list.dining").addClass("active");
-  // });
+  $(".tab-dining").click(function () {
+    $(".tab-list li").removeClass("active");
+    $(".products-list").removeClass("active");
+    $(this).addClass("active");
+    $(".products-list.dining").addClass("active");
+  });
 
 });
 
